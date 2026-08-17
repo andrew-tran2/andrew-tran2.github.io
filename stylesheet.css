@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Jupiteroid;
+    src: url(/Font/Jupiteroid_Font_1_1/TrueType/Jupiteroid-Regular.ttf);
+
+}
+
+html{
+    font-family: Jupiteroid;
+    background-color:#1c4286;
+}
