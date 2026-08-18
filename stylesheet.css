@@ -7,4 +7,15 @@
 html{
     font-family: Jupiteroid;
     background-color:#1c4286;
+    color: #f3a257;
 }
+
+a{
+    color: #dd4027;
+}
+
+.subContainer{
+    border: 5px solid rgba(192,192,192,0.8);
+    border-radius: 10px;
+}
+
