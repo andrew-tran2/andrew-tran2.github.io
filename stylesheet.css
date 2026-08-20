@@ -1,7 +1,12 @@
 @font-face {
     font-family: Jupiteroid;
     src: url(/Font/Jupiteroid_Font_1_1/TrueType/Jupiteroid-Regular.ttf);
+}
 
+@font-face {
+    font-family: Jupiteroid;
+    src: url(Font/Jupiteroid_Font_1_1/OpenType/Jupiteroid-Bold.otf);
+    font-weight:bold;
 }
 
 html{
@@ -10,12 +15,69 @@ html{
     color: #f3a257;
 }
 
+body{
+    margin: 0;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2{
+    font-weight: bold;
+}
+
 a{
     color: #dd4027;
 }
 
+.parts{
+    height: 100vh;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+#divideLine{
+    color:rgba(192,192,192,0.5);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#intro{
+    background-image: url(Images/Background6.svg) ;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+}
+
+#introText{
+    width: 100%;
+    text-align: center;
+}
+
+#links{
+    height: 40%;
+    text-align: center;
+}
+
 .subContainer{
-    border: 5px solid rgba(192,192,192,0.8);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    border: 1px solid rgba(192,192,192,0.5);
     border-radius: 10px;
+    background-color: rgba(25, 25, 112,0.25);
+}
+
+.subContainerText{
+    margin: 2.5%;
+}
+
+footer{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
 }
 
